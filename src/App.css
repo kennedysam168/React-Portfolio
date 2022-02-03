@@ -23,11 +23,11 @@ body {
 }
 
 
-.section1 {
+/* .section1 {
     align-items: center;
     text-align: center;
     width: 100% !important;
-}
+} */
 
 .bg-light {
     height: 50px;
@@ -55,12 +55,11 @@ body {
     width: 120px;
     margin-top: 50px;
     margin-right: 3px;
-    
+    margin-left: 650px;
   }
 
 .name {
     color: honeydew;
-    padding-top: 35px;
     margin-left: 3px;
     font-family: "Rocksalt";
     font-size: 42px;

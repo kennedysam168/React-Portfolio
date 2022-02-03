@@ -18,7 +18,7 @@ function App() {
     <Navbar />
     <Icon />
     <Name />
- 
+    
     </Router>
   )
 };

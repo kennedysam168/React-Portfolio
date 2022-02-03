@@ -1,9 +1,10 @@
 import React from 'react';
 import {  Link } from "react-router-dom";
+import icon from '/Users/samkennedy/Desktop/React-Portfolio/src/icon-image.jpeg';
 
 const Icon = () => {
     return (
-    <img class="icon-image" src="./icon-image.jpeg"/>
+        <img src={icon} alt="icon" className="icon-image"/>
     )
 }
 
