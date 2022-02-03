@@ -5,8 +5,10 @@ import background from "/Users/samkennedy/Desktop/React-Portfolio/src/wood-ring-
 
 const BackgroundDesign = () => {
     return (
+    <div className="background-design">
         <div style={{ backgroundImage: `url(${background})` }}>
       </div>
+    </div>
     )
 };
 

@@ -14,11 +14,10 @@ import BackgroundDesign from './components/background-design';
 function App() {
   return (
     <Router>
-    <BackgroundDesign />
     <Navbar />
     <Icon />
     <Name />
-    
+    <BackgroundDesign />
     </Router>
   )
 };
