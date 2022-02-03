@@ -55,6 +55,7 @@ body {
     width: 120px;
     margin-top: 50px;
     margin-right: 3px;
+    
   }
 
 .name {
@@ -64,10 +65,25 @@ body {
     font-family: "Rocksalt";
     font-size: 42px;
     text-shadow: 4px 4px black;
+    text-align: center;
   }
 
-.nav-link.active {
+/* .nav-link.active {
     color: rgb(0, 0, 0) !important;
     font-size: 17px;
+} */
+
+.nav-item {
+    display: inline;
+    color: rgb(0, 0, 0) !important;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: auto;
+    word-spacing: 2px;
 }
 
+.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    padding-left: 0px;
+    padding-right: 15px;
+}

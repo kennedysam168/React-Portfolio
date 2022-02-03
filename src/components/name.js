@@ -2,9 +2,10 @@ import React from 'react';
 import {  Link } from "react-router-dom";
 
 const Name = () => {
-    <div
-     className = 'name'>Sam Kennedy
-    </div>
+    return (
+     <h1 className = 'name'>Sam Kennedy</h1>
+   
+    )
 };
 
 
