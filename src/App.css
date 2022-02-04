@@ -67,10 +67,10 @@ body {
     text-align: center;
   }
 
-/* .nav-link.active {
+.nav-link.active {
     color: rgb(0, 0, 0) !important;
     font-size: 17px;
-} */
+}
 
 .nav-item {
     display: inline;
@@ -79,7 +79,6 @@ body {
     letter-spacing: 2px;
     text-align: center;
     margin-left: auto;
-    word-spacing: 2px;
 }
 
 .navbar-nav.me-auto.mb-2.mb-lg-0 {

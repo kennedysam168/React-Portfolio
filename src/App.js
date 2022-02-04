@@ -10,11 +10,15 @@ import {
   Link
 } from "react-router-dom";
 import BackgroundDesign from './components/background-design';
+import Projects from './pages/Projects';
 
 function App() {
   return (
     <Router>
     <Navbar />
+    <Switch>
+        <Route path='/projects' component={<Projects />} />
+    </Switch>
     <Icon />
     <Name />
     <BackgroundDesign />

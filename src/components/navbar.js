@@ -10,29 +10,29 @@ const Navbar= () =>{
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
           <Link
-            to="/"
+            to="/projects"
             className={
-              window.location.pathname === '/' ? 'nav-link active' : 'nav-link'
-            }>
-            Home
-          </Link>
-          </li>
-          <li className="nav-item">
-          <Link
-            to="/"
-            className={
-              window.location.pathname === '/projects' ? 'nav-link active' : 'nav-link'
+              window.location.pathname === './Projects' ? 'nav-link active' : 'nav-link'
             }>
             Projects
           </Link>
           </li>
           <li className="nav-item">
           <Link
-            to="/"
+            to="/aboutme"
             className={
               window.location.pathname === '/aboutme' ? 'nav-link active' : 'nav-link'
             }>
             About Me
+          </Link>
+          </li>
+          <li className="nav-item">
+          <Link
+            to="/contact"
+            className={
+              window.location.pathname === '/contact' ? 'nav-link active' : 'nav-link'
+            }>
+            Contact
           </Link>
           </li>
         </ul>
