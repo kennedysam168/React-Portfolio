@@ -1,9 +1,11 @@
 import React from 'react';
 import {  Link } from "react-router-dom";
+import icon from '/Users/samkennedy/Desktop/React-Portfolio/src/icon-image.jpeg';
 
 
-const Navbar= () =>{
+const Navbar= ({ currentPage, handlePageChange }) =>{
   return (
+    <div className = 'background-design'>
     <div className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -12,7 +14,7 @@ const Navbar= () =>{
           <Link
             to="/projects"
             className={
-              window.location.pathname === './Projects' ? 'nav-link active' : 'nav-link'
+              window.location.pathname === '/Projects' ? 'nav-link active' : 'nav-link'
             }>
             Projects
           </Link>
@@ -37,7 +39,10 @@ const Navbar= () =>{
           </li>
         </ul>
         </div>
+        <img src={icon} alt="icon" className="icon-image"/>
+      <div className="name">Sam Kennedy</div>
       </div>
+  </div>
   </div>
   );
 };

@@ -5,23 +5,23 @@ import Navbar from './components/navbar';
 import Name from './components/name'
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
-import BackgroundDesign from './components/background-design';
+// import BackgroundDesign from './components/background-design';
 import Projects from './pages/Projects';
+
 
 function App() {
   return (
     <Router>
     <Navbar />
-    <Switch>
-        <Route path='/projects' component={<Projects />} />
-    </Switch>
+    <Routes>
+        <Route path='/projects' element={<Projects />} />
+    </Routes>
     <Icon />
     <Name />
-    <BackgroundDesign />
     </Router>
   )
 };

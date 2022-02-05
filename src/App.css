@@ -35,9 +35,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 14%;
-    width: 280px;
     border-radius: 5px;
-    box-shadow: 6px 8px 8px rgb(105, 107, 117);
+    box-shadow: 6px 8px 8px rgb(112, 114, 124);
     display: flex;
     background-color: rgb(242, 250, 242) !important;
 }
@@ -53,18 +52,18 @@ body {
     border-radius: 50%;
     height: 120px;
     width: 120px;
-    margin-top: 50px;
-    margin-right: 3px;
-    margin-left: 650px;
+    margin-top: 37px;
+    margin-right: 7px;
   }
 
 .name {
     color: honeydew;
-    margin-left: 3px;
     font-family: "Rocksalt";
-    font-size: 42px;
+    font-size: 34px;
     text-shadow: 4px 4px black;
     text-align: center;
+    margin-top: 25px;
+    
   }
 
 .nav-link.active {
