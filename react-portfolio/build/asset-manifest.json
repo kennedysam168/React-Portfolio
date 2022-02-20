@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kennedysam168/React-Portfolio/static/css/main.ddcc39db.css",
+    "main.js": "/kennedysam168/React-Portfolio/static/js/main.df697d0f.js",
+    "static/media/project2.png": "/kennedysam168/React-Portfolio/static/media/project2.46008e174408f04a9973.png",
+    "static/media/wood-ring-GIF.gif": "/kennedysam168/React-Portfolio/static/media/wood-ring-GIF.4cffed1aaa6b3f52db66.gif",
+    "static/media/code-quiz.jpg": "/kennedysam168/React-Portfolio/static/media/code-quiz.ac5042c749d7328f5c30.jpg",
+    "static/media/canta-screenshot.png": "/kennedysam168/React-Portfolio/static/media/canta-screenshot.e503057e05caa3a9dfd6.png",
+    "static/media/RockSalt-Regular.ttf": "/kennedysam168/React-Portfolio/static/media/RockSalt-Regular.7421638ad8e0f98e9752.ttf",
+    "static/media/icon-image.jpeg": "/kennedysam168/React-Portfolio/static/media/icon-image.e9abc60168ce6eefedf7.jpeg",
+    "index.html": "/kennedysam168/React-Portfolio/index.html",
+    "main.ddcc39db.css.map": "/kennedysam168/React-Portfolio/static/css/main.ddcc39db.css.map",
+    "main.df697d0f.js.map": "/kennedysam168/React-Portfolio/static/js/main.df697d0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddcc39db.css",
+    "static/js/main.df697d0f.js"
+  ]
+}
