@@ -22,6 +22,15 @@ body {
     background-size: cover;
 }
 
+.scroll-prompt {
+    color: honeydew;
+    text-align: center;
+    height: fit-content;
+    margin-top: 150px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
 
 .section1 {
     align-items: center;
@@ -38,7 +47,7 @@ body {
     border-radius: 5px;
     box-shadow: 6px 8px 8px rgb(112, 114, 124);
     display: flex;
-    background-color: rgb(242, 250, 242) !important;
+    background-color: honeydew !important;
 }
 
 .container-fluid {
@@ -83,4 +92,78 @@ body {
 .navbar-nav.me-auto.mb-2.mb-lg-0 {
     padding-left: 0px;
     padding-right: 15px;
+}
+
+.project-container {
+    display: block;
+    text-align: center;
+}
+
+.proj2 {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.proj1 {
+    height: 500px;
+    margin-top: 100px !important;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.code-quiz {
+    height: 500px;
+    margin-top: 100px;
+}
+
+h1 {
+    color: honeydew;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Rocksalt';
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+pre {
+    color: honeydew;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+footer {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+a {
+    color: cornflowerblue;
+}
+.resume {
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+
+.github {
+    margin-left: 110px;
+}
+
+.proj2-links {
+    color: honeydew;
+    font-family: monospace;
+}
+
+.proj1-links {
+    color: honeydew;
+    font-family: monospace;
+}
+
+.code-quiz-links {
+    color: honeydew;
+    font-family: monospace;
+    margin-bottom: 60px;
 }

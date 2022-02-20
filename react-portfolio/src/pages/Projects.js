@@ -1,10 +1,10 @@
 import React from 'react';
-import projectsCom from "../components/projectsCom"
+import ProjectsCom from "../components/projectsCom"
 
 
 function Projects() {
     return (
-        <projectsCom />
+        <ProjectsCom />
     )
 }
 

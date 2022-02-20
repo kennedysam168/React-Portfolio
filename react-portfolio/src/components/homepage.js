@@ -1,9 +1,9 @@
 import React from 'react';
-import {  Link } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import icon from '/Users/samkennedy/Desktop/React-Portfolio/react-portfolio/src/icon-image.jpeg';
 
 
-const Navbar= ({ currentPage, handlePageChange }) =>{
+const Homepage= ({ currentPage, handlePageChange }) =>{
   return (
     <div className = 'background-design'>
     <div className="navbar navbar-expand-lg navbar-light bg-light">
@@ -11,36 +11,37 @@ const Navbar= ({ currentPage, handlePageChange }) =>{
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-          <Link
-            to="/projects"
+          <NavLink
+            to="/Projects"
             className={
               window.location.pathname === '/Projects' ? 'nav-link active' : 'nav-link'
             }>
             Projects
-          </Link>
+          </NavLink>
           </li>
           <li className="nav-item">
-          <Link
-            to="/aboutme"
+          <NavLink
+            to="/AboutMe"
             className={
-              window.location.pathname === '/aboutme' ? 'nav-link active' : 'nav-link'
+              window.location.pathname === '/AboutMe' ? 'nav-link active' : 'nav-link'
             }>
             About Me
-          </Link>
+          </NavLink>
           </li>
           <li className="nav-item">
-          <Link
-            to="/contact"
+          <NavLink
+            to="/Contact"
             className={
-              window.location.pathname === '/contact' ? 'nav-link active' : 'nav-link'
+              window.location.pathname === '/Contact' ? 'nav-link active' : 'nav-link'
             }>
             Contact
-          </Link>
+          </NavLink>
           </li>
         </ul>
         </div>
         <img src={icon} alt="icon" className="icon-image"/>
       <div className="name">Sam Kennedy</div>
+      <div className="scroll-prompt">Scroll!</div>
       </div>
   </div>
   </div>
@@ -48,4 +49,4 @@ const Navbar= ({ currentPage, handlePageChange }) =>{
 };
 
 
-export default Navbar;
+export default Homepage;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Icon from './components/icon';
-import Navbar from './components/navbar';
+import Homepage from './components/homepage';
 import Name from './components/name'
 import {
   BrowserRouter as Router,
@@ -10,17 +10,27 @@ import {
   Link
 } from "react-router-dom";
 import Projects from './pages/Projects';
+import AboutMe from './pages/AboutMe';
+import Contact from './pages/Contact';
 
 
 function App() {
   return (
     <Router>
-    <Navbar />
+    <Homepage />
     <Routes>
-        <Route path='/projects' element= {<Projects />} />
+    <Route path='/Projects' element={  <Projects />}> 
+        
+    </Route>
+    <Route path='/AboutMe' element={  <AboutMe />}> 
+        
+    </Route>
+    <Route path='/Contact' element={  <Contact />}> 
+        
+    </Route>
     </Routes>
-    <Icon />
-    <Name />
+    {/* <Icon />
+    <Name /> */}
     </Router>
   )
 };
