@@ -1,6 +1,6 @@
 import React from 'react';
 import {  NavLink } from "react-router-dom";
-import icon from '/Users/samkennedy/Desktop/React-Portfolio/react-portfolio/src/icon-image.jpeg';
+import icon from '../icon-image.jpeg';
 
 
 const Homepage= ({ currentPage, handlePageChange }) =>{
