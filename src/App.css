@@ -15,7 +15,7 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
-    background: url("wood-ring-GIF.gif") no-repeat center center fixed; 
+    background: url(./wood-ring-GIF.gif) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
