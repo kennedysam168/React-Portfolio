@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import {  Link } from "react-router-dom";
-import background from "/Users/samkennedy/Desktop/React-Portfolio/src/wood-ring-GIF.gif";
+import background from "../wood-ring-GIF.gif";
 
 
 const BackgroundDesign = () => {
