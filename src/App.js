@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import Icon from './components/icon';
 import Homepage from './components/homepage';
-import Name from './components/name'
 import {
   BrowserRouter as Router,
   Routes,
