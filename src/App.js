@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Homepage from './components/homepage';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link
